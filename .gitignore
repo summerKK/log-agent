@@ -16,4 +16,4 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-/etcd-v3.4.4-darwin-amd64/default.etcd/
+/etcd-v3.4.4-darwin-amd64/default.etcd/*
