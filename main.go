@@ -24,5 +24,11 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(1)
 	taillog.Init(logConf, watchLogConfChan)
+
+	// kafka消费者
+	for _, entry := range logConf {
+		kafka.InitConsumer(config.Config.Address, entry.Topic)
+	}
+
 	wg.Wait()
 }

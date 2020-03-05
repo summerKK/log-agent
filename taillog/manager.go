@@ -30,7 +30,6 @@ func Init(logEntry []*etcd.LogEntry, newConfChan <-chan []*etcd.LogEntry) {
 
 	// 热更新配置
 	go Manager.run(newConfChan)
-
 }
 
 func (m *manager) watchConf() {
