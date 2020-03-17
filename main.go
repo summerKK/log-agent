@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"log-agent/config"
-	"log-agent/etcd"
-	"log-agent/kafka"
-	"log-agent/taillog"
-	"log-agent/utils"
+	"github.com/summerKK/go-code-snippet-library/log-agent/config"
+	"github.com/summerKK/go-code-snippet-library/log-agent/etcd"
+	"github.com/summerKK/go-code-snippet-library/log-agent/kafka"
+	"github.com/summerKK/go-code-snippet-library/log-agent/taillog"
+	"github.com/summerKK/go-code-snippet-library/log-agent/utils"
 	"sync"
 	"time"
 )
