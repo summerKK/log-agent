@@ -1,4 +1,4 @@
-module log-agent
+module github.com/summerKK/go-code-snippet-library/log-agent
 
 require (
 	github.com/Shopify/sarama v1.26.1
