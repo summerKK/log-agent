@@ -2,7 +2,7 @@ package taillog
 
 import (
 	"fmt"
-	"log-agent/etcd"
+	"github.com/summerKK/go-code-snippet-library/log-agent/etcd"
 )
 
 var Manager *manager

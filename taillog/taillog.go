@@ -3,7 +3,7 @@ package taillog
 import (
 	"fmt"
 	"github.com/hpcloud/tail"
-	"log-agent/kafka"
+	"github.com/summerKK/go-code-snippet-library/log-agent/kafka"
 )
 
 type TailTask struct {
