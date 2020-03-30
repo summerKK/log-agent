@@ -19,8 +19,6 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.13.0 // indirect
 	github.com/hpcloud/tail v1.0.0
 	github.com/jonboulle/clockwork v0.1.0 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/prometheus/client_golang v1.4.1 // indirect
 	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/soheilhy/cmux v0.1.4 // indirect
@@ -37,3 +35,5 @@ require (
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
+
+go 1.13
